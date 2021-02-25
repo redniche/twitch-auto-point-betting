@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Twitch Channel Points Betting Manager",
+    "name": "Twitch Betting Manager",
     "description": "Manage twitch channel points betting",
     "version": "1.0",
     "homepage_url": "https://github.com/redniche/twitch-auto-point-betting",
@@ -9,6 +9,11 @@
     "web_accessible_resources": [
       "dist/src/betting-manager.js"
     ],
+    "background":{
+      "scripts": ["dist/src/background.js"]
+    },
+    "permissions": [ "tabs", "storage", "*://*.twitch.com/*" ],
+    "browser_action": {},
     "content_scripts": [
       {
         "matches": [

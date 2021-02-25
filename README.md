@@ -2,7 +2,7 @@
 
 ### Betting Manager
 
-Managing twitch channel points betting
+Manage twitch channel points betting
 
 #### How to build
 

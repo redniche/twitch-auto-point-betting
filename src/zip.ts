@@ -7,8 +7,8 @@ import packageJson from "../package.json";
     const FILES: string[] = [
       "dist/src/index.js",
       //TODO:
-      //"dist/src/betting-manager.js",
-      //"dist/src/background.js",
+      "dist/src/betting-manager.js",
+      "dist/src/background.js",
       "manifest.json",
       //"resources/???.png",
     ];
